@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Lato', sans-serif;
+    border: 0;
+}
+
+/* Left  */
+.hover-left a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Nav bar */
+
+.navbar a.active {
+    color: red; /* Màu đỏ cho mục được chọn */
+    /* text-decoration: underline; */
+    /* text-underline-offset: 4px; */
+
+    /* border-bottom: solid 1px #000; */
+}
